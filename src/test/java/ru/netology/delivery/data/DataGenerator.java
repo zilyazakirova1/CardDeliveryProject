@@ -18,7 +18,7 @@ import java.util.Random;
         }
 
         public static String generateCity() {
-            var cities = new String[]{"Казань", "Уфа", "Ростов-на-Дону", "Адлер", "Калининград", "Майкоп", "Элиста"};
+            var cities = new String[]{"Казань", "Уфа", "Ростов-на-Дону", "Москва", "Калининград", "Майкоп", "Элиста"};
             return cities[new Random().nextInt(cities.length)];
         }
 
